@@ -7,8 +7,9 @@ namespace Vikingos
 {
     public abstract class Lugar
     {
-        public abstract bool ValeLaPena(int cantidadVikingos);
 
         public abstract int ObtenerBotin(int cantidadVikingos);
+        public abstract bool ValeLaPena(int cantidadVikingos);
+        
     }
 }

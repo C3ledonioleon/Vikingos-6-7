@@ -1,23 +1,8 @@
-
-
 namespace Vikingos;
 
 public abstract class Casta
 {
+    public abstract bool PuedeIrExpedicion(Vikingo vikingo);
 
-    public class Jarl : Casta
-    {
-
-    }
-
-    public class Karl : Casta
-    {
-
-    }
-
-    public class Thrall : Casta
-    {
-        
-    }
-
+    public abstract void Ascender(Vikingo vikingo);
 }

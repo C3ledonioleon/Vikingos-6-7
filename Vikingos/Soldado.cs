@@ -11,10 +11,10 @@ public class Soldado : Vikingo
     public int Armas { get; set; }
 
     public Soldado(Casta casta, int vidasCobradas, int armas) : base(casta)
-    {
-        VidasCobradas = vidasCobradas;
-        Armas = armas;
-    }
+        {
+            VidasCobradas = vidasCobradas;
+            Armas = armas;
+        }
 
     public override bool EsProductivo()
     {
