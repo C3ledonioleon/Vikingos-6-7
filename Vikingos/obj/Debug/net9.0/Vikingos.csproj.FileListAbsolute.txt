@@ -1,0 +1,15 @@
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\bin\Debug\net9.0\Vikingos.exe
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\bin\Debug\net9.0\Vikingos.deps.json
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\bin\Debug\net9.0\Vikingos.runtimeconfig.json
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\bin\Debug\net9.0\Vikingos.dll
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\bin\Debug\net9.0\Vikingos.pdb
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\obj\Debug\net9.0\Vikingos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\obj\Debug\net9.0\Vikingos.AssemblyInfoInputs.cache
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\obj\Debug\net9.0\Vikingos.AssemblyInfo.cs
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\obj\Debug\net9.0\Vikingos.csproj.CoreCompileInputs.cache
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\obj\Debug\net9.0\Vikingos.sourcelink.json
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\obj\Debug\net9.0\Vikingos.dll
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\obj\Debug\net9.0\refint\Vikingos.dll
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\obj\Debug\net9.0\Vikingos.pdb
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\obj\Debug\net9.0\Vikingos.genruntimeconfig.cache
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\Vikingos\obj\Debug\net9.0\ref\Vikingos.dll

@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Vikingos")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("VikingosTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dd5b9a07dc81d489ea75659e1b5e8891ad3cd81")]
-[assembly: System.Reflection.AssemblyProductAttribute("Vikingos")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Vikingos")]
+[assembly: System.Reflection.AssemblyProductAttribute("VikingosTest")]
+[assembly: System.Reflection.AssemblyTitleAttribute("VikingosTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

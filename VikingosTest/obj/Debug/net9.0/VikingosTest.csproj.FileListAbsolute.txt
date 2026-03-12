@@ -1,0 +1,6 @@
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.csproj.AssemblyReference.cache
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.AssemblyInfoInputs.cache
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.AssemblyInfo.cs
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.csproj.CoreCompileInputs.cache
+C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.sourcelink.json
