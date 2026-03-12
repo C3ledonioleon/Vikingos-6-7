@@ -10,13 +10,18 @@ namespace Vikingos
     public abstract class Vikingo
     {
         public Casta Casta { get; set; }
+        public int Oro { get; set; }
 
         public Vikingo(Casta casta)
         {
             Casta = casta;
         }
-         public abstract bool EsProductivo();
+
+        public abstract bool EsProductivo();
+
+        public void Ascender()
+        {
+            Casta.Ascender(this);
+        }
     }
-
-
 }

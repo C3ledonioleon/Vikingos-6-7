@@ -2,48 +2,60 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Vikingos;
-
-public class Expedicion
+namespace Vikingos
 {
-    public List<Vikingo> Vikingos { get; private set; }
-    public List<Lugar> Lugares { get; private set; }
-
-    public Expedicion()
+    public class Expedicion
     {
-        Vikingos = new List<Vikingo>();
-        Lugares = new List<Lugar>();
-    }
+        public List<Vikingo> Vikingos { get; private set; }
+        public List<Lugar> Lugares { get; private set; }
 
-    public void SubirVikingo(Vikingo vikingo)
-    {
-        if (vikingo.Casta.PuedeIrExpedicion(vikingo))
+        public Expedicion()
         {
-            Vikingos.Add(vikingo);
-        }
-        else
-        {
-            throw new Exception("El vikingo no puede subir a la expedición");
-        }
-    }
-
-    public bool ValeLaPena()
-    {
-        int cantidad = Vikingos.Count;
-
-        return Lugares.All(l => l.ValeLaPena(cantidad));
-    }
-
-    public int RealizarExpedicion()
-    {
-        int totalBotin = 0;
-        int cantidad = Vikingos.Count;
-
-        foreach (var lugar in Lugares)
-        {
-            totalBotin += lugar.ObtenerBotin(cantidad);
+            Vikingos = new List<Vikingo>();
+            Lugares = new List<Lugar>();
         }
 
-        return totalBotin;
+        public void SubirVikingo(Vikingo vikingo)
+        {
+            if (vikingo.Casta.PuedeIrExpedicion(vikingo))
+            {
+                Vikingos.Add(vikingo);
+            }
+            else
+            {
+                throw new Exception("El vikingo no puede subir a la expedición");
+            }
+        }
+
+        public void AgregarLugar(Lugar lugar)
+        {
+            Lugares.Add(lugar);
+        }
+
+        public bool ValeLaPena()
+        {
+            int cantidad = Vikingos.Count;
+            return Lugares.All(l => l.ValeLaPena(cantidad));
+        }
+
+        public int RealizarExpedicion()
+        {
+            int totalBotin = 0;
+            int cantidad = Vikingos.Count;
+
+            foreach (var lugar in Lugares)
+            {
+                totalBotin += lugar.ObtenerBotin(cantidad);
+            }
+
+            int oroPorVikingo = totalBotin / cantidad;
+
+            foreach (var vikingo in Vikingos)
+            {
+                vikingo.Oro += oroPorVikingo;
+            }
+
+            return totalBotin;
+        }
     }
 }

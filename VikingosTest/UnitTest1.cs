@@ -1,25 +1,16 @@
-﻿using Xunit;
-using Vikingos;
+﻿using Vikingos;
+using Xunit;
 
-namespace VikingosTests;
-
-public class UnitTest1
+public class ExpedicionTest
 {
     [Fact]
-    public void NoDebeSubirVikingoSiNoPuedeIr()
-    {
-        // Arrange
-        var expedicion = new Expedicion();
-
-        var soldado = new Soldado
+        public void NoDebeSubirVikingoNoProductivo()
         {
-            VidasCobradas = 10,
-            Armas = 1,
-            Casta = new Karl()
-        };
+            Expedicion expedicion = new Expedicion();
+            Vikingo vikingo = new Soldado(new Karl(), 10, 0);
 
-        // Act & Assert
-        Assert.Throws<Exception>(() => expedicion.SubirVikingo(soldado));
-    }
+            var ex = Assert.Throws<Exception>(() => expedicion.SubirVikingo(vikingo));
+
+            Assert.Equal("El vikingo no puede subir a la expedición", ex.Message);
+        }
 }
-

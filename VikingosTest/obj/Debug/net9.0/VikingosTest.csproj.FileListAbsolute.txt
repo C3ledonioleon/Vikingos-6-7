@@ -4,3 +4,11 @@ C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\V
 C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.AssemblyInfo.cs
 C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.csproj.CoreCompileInputs.cache
 C:\Users\Celedonio\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.sourcelink.json
+C:\Users\Lab15-PC01\Documents\GitHub\Vikingos-6-7\VikingosTest\bin\Debug\net9.0\.msCoverageSourceRootsMapping_VikingosTest
+C:\Users\Lab15-PC01\Documents\GitHub\Vikingos-6-7\VikingosTest\bin\Debug\net9.0\CoverletSourceRootsMapping_VikingosTest
+C:\Users\Lab15-PC01\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.csproj.AssemblyReference.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab15-PC01\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.AssemblyInfoInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.AssemblyInfo.cs
+C:\Users\Lab15-PC01\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.csproj.CoreCompileInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Vikingos-6-7\VikingosTest\obj\Debug\net9.0\VikingosTest.sourcelink.json

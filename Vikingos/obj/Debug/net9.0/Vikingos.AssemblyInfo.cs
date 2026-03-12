@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vikingos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dd5b9a07dc81d489ea75659e1b5e8891ad3cd81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02de2d17d172e767650dfd96683c2bfe740f0df8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vikingos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vikingos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
