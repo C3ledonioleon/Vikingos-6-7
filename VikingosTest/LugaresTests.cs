@@ -10,11 +10,12 @@ public class LugaresTests
         Assert.True(new Aldea(15).ValeLaPena(10));
     }
 
-    [Fact]
-    public void CapitalValeLaPena()
-    {
-        var cap = new Capital(20, 2.0);
-        Assert.True(cap.ValeLaPena(10));   // 20×2 = 40 ≥ 30
-        Assert.False(cap.ValeLaPena(30));  // 20×2 = 40 < 90
-    }
+[Fact]
+public void CapitalValeLaPena()
+{
+    var cap = new Capital(25, 4.0);
+
+    Assert.True(cap.ValeLaPena(5));   // 5×4 = 20 ≥ 15 → true
+    Assert.False(cap.ValeLaPena(34)); // max 100 < 102 → false
+}
 }

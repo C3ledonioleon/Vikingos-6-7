@@ -18,7 +18,7 @@ namespace Vikingos
 
             public override int ObtenerBotin(int cantidadVikingos)
             {
-                int derrotados = cantidadVikingos;
+                int derrotados = Math.Min(cantidadVikingos, Defensores);
                 return (int)(derrotados * FactorRiqueza);
             }
 
