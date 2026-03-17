@@ -15,7 +15,7 @@ public void CapitalValeLaPena()
 {
     var cap = new Capital(25, 4.0);
 
-    Assert.True(cap.ValeLaPena(5));   // 5×4 = 20 ≥ 15 → true
-    Assert.False(cap.ValeLaPena(34)); // max 100 < 102 → false
+    Assert.True(cap.ValeLaPena(5));   
+    Assert.False(cap.ValeLaPena(34)); 
 }
 }

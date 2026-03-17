@@ -4,28 +4,38 @@ using Vikingos;
 public class AscensoSocialTests
 {
     [Fact]
-    public void AsciendeDeKarlAThrall()
+    public void Ragnar_DeKarlAScaleAThrall()
     {
-        var ragnar = new Soldado(new Karl(), 40, 8);
+        var ragnar = new Soldado(new Karl(), 45, 12);
         ragnar.Ascender();
         Assert.IsType<Thrall>(ragnar.Casta);
     }
 
     [Fact]
-    public void JarlSoldadoGanaArmasAlAscender()
+    public void JarlSoldado_AscenderGana10Armas()
     {
-        var v = new Soldado(new Jarl(), 30, 2);
-        v.Ascender();
-        Assert.IsType<Karl>(v.Casta);
-        Assert.Equal(12, v.Armas);
+        var vikingo = new Soldado(new Jarl(), 30, 3);
+        vikingo.Ascender();
+        Assert.IsType<Karl>(vikingo.Casta);
+        Assert.Equal(13, vikingo.Armas);
     }
 
     [Fact]
-    public void Thrall_NoCambiaAlAscender()
+    public void JarlGranjero_AscenderGana2HijosYHectareas()
     {
-        var v = new Soldado(new Thrall(), 50, 10);
-        v.Ascender();
-        Assert.IsType<Thrall>(v.Casta);
-        Assert.Equal(10, v.Armas);
+        var vikingo = new Granjero(new Jarl(), 1, 4);
+        vikingo.Ascender();
+        Assert.IsType<Karl>(vikingo.Casta);
+        Assert.Equal(3, vikingo.Hijos);
+        Assert.Equal(6, vikingo.Hectareas);
+    }
+
+    [Fact]
+    public void Thrall_NoAsciende()
+    {
+        var vikingo = new Soldado(new Thrall(), 50, 10);
+        vikingo.Ascender();
+        Assert.IsType<Thrall>(vikingo.Casta);
+        Assert.Equal(10, vikingo.Armas);
     }
 }

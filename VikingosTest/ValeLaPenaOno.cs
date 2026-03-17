@@ -1,4 +1,4 @@
-      using Vikingos;
+using Vikingos;
 using Xunit;
 
 namespace VikingostTest;
@@ -31,3 +31,4 @@ public class ValeLaPenaOno
         Assert.False(exp.ValeLaPena());
     }
 }
+

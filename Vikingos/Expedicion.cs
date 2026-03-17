@@ -43,6 +43,9 @@ namespace Vikingos
             int totalBotin = 0;
             int cantidad = Vikingos.Count;
 
+            if (cantidad == 0)
+                throw new Exception("No hay vikingos en la expedición");
+
             foreach (var lugar in Lugares)
             {
                 totalBotin += lugar.ObtenerBotin(cantidad);
