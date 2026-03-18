@@ -9,6 +9,6 @@ public class Thrall : Casta
 
     public override void Ascender(Vikingo vikingo)
     {
-        // no asciende más
+        throw new InvalidOperationException("No");
     }
 }

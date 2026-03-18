@@ -16,8 +16,10 @@ namespace Vikingos
         }
 
         public override bool EsProductivo()
-        {
-            return VidasCobradas > 20 && Armas > 0;
-        }
+
+        => VidasCobradas >= 20 && Casta.PuedeIrExpedicion(this);
+
+
+        
     }
 }
