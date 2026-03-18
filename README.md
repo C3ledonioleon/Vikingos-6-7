@@ -1,6 +1,6 @@
-# 🛡️ Vikingos - Sistema de Expediciones
+# Vikingos - Sistema de Expediciones
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto consiste en una aplicación en C# que modela el comportamiento de los vikingos y sus expediciones, teniendo en cuenta su organización social, tipos de vikingos y los distintos lugares que pueden invadir.
 
@@ -8,7 +8,7 @@ El sistema permite simular expediciones, evaluar si valen la pena y repartir el 
 
 ---
 
-## 🧠 Conceptos Implementados
+## Conceptos Implementados
 
 * Programación Orientada a Objetos (POO)
 * Herencia
@@ -19,9 +19,9 @@ El sistema permite simular expediciones, evaluar si valen la pena y repartir el 
 
 ---
 
-## 🧩 Modelo del Sistema
+## Modelo del Sistema
 
-### 👤 Vikingos
+### Vikingos
 
 Los vikingos pueden ser de dos tipos:
 
@@ -34,7 +34,7 @@ Todos los vikingos:
 * Pueden participar en expediciones
 * Poseen una cantidad de **oro**
 
-#### ✔ Productividad
+#### Productividad
 
 Un vikingo es productivo si:
 
@@ -43,7 +43,7 @@ Un vikingo es productivo si:
 
 ---
 
-### 🏰 Castas Sociales
+### Castas Sociales
 
 Existen tres castas:
 
@@ -56,7 +56,7 @@ Cada casta define:
 * Si un vikingo puede ir a una expedición
 * Cómo asciende en la escala social
 
-#### 🔼 Ascensos
+#### Ascensos
 
 * Jarl → Karl
 
@@ -67,28 +67,28 @@ Cada casta define:
 
 ---
 
-### 🌍 Lugares a Invadir
+### Lugares a Invadir
 
 Los vikingos pueden invadir:
 
-#### 🏡 Aldea
+#### Aldea
 
 * Botín: cantidad de crucifijos
 * Vale la pena si tiene al menos 15 monedas de oro
 
-#### 🧱 Aldea Amurallada
+#### Aldea Amurallada
 
 * Igual que una aldea
 * Requiere una cantidad mínima de vikingos
 
-#### 🏛️ Capital
+#### Capital
 
 * Botín: depende de los defensores y un factor de riqueza
 * Vale la pena si se obtienen al menos 3 monedas de oro por vikingo
 
 ---
 
-### 🚢 Expediciones
+### Expediciones
 
 Una expedición:
 
@@ -100,7 +100,7 @@ Una expedición:
 
 ---
 
-## ⚙️ Funcionamiento General
+## Funcionamiento General
 
 1. Se crean vikingos con su casta correspondiente
 2. Se agregan a la expedición si cumplen las condiciones
@@ -113,7 +113,7 @@ Una expedición:
 
 ---
 
-## 🎯 Decisiones de Diseño
+## Decisiones de Diseño
 
 * El atributo **Oro** se encuentra en la clase base `Vikingo` ya que todos los vikingos participan en expediciones y reciben parte del botín.
 * Se utiliza **polimorfismo** para calcular el botín y determinar si vale la pena invadir un lugar.
@@ -122,7 +122,7 @@ Una expedición:
 
 ---
 
-## 🚀 Posibles Mejoras
+## Posibles Mejoras
 
 * Agregar interfaz gráfica o menú interactivo
 * Implementar persistencia de datos (archivos o base de datos)
@@ -131,9 +131,14 @@ Una expedición:
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Trabajo práctico desarrollado en C# como ejercicio de modelado orientado a objetos.
 
 ---
 
+4. Pregunta teórica:
+Aparecen los castillos, que son un nuevo posible objetivo a invadir además de las aldeas y capitales. ¿Pueden agregarse sin modificar código existente? Explicar cómo agregarlo. Justificar conceptualmente.
+
+Sí, se pueden agregar castillos sin modificar el código existente, esto es posible porque todas las invasiones se manejan con la clase abstracta Lugar, y la expedición trabaja con una lista de ese tipo ,gracias a la herencia y el polimorfismo se puede crear un nuevo tipo de lugar sin cambiar las clases que ya existen.
+Para agregar un castillo solo habría que crear una nueva clase que herede de Lugar e implemente sus métodos.
