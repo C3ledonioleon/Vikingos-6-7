@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Vikingos-6-7\\Vikingos\\Vikingos.csproj": {}
+    "c:\\Users\\Lab15-PC01\\Documents\\GitHub\\Vikingos-6-7\\Vikingos\\Vikingos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Vikingos-6-7\\Vikingos\\Vikingos.csproj": {
+    "c:\\Users\\Lab15-PC01\\Documents\\GitHub\\Vikingos-6-7\\Vikingos\\Vikingos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Vikingos-6-7\\Vikingos\\Vikingos.csproj",
+        "projectUniqueName": "c:\\Users\\Lab15-PC01\\Documents\\GitHub\\Vikingos-6-7\\Vikingos\\Vikingos.csproj",
         "projectName": "Vikingos",
-        "projectPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Vikingos-6-7\\Vikingos\\Vikingos.csproj",
+        "projectPath": "c:\\Users\\Lab15-PC01\\Documents\\GitHub\\Vikingos-6-7\\Vikingos\\Vikingos.csproj",
         "packagesPath": "C:\\Users\\Lab15-PC01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Vikingos-6-7\\Vikingos\\obj\\",
+        "outputPath": "c:\\Users\\Lab15-PC01\\Documents\\GitHub\\Vikingos-6-7\\Vikingos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
